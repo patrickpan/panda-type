@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "lib": ["ES2015", "DOM"],
+    "module": "commonjs",
+    "noEmit": true,
+    "strict": true,
+    "target": "es5",
+    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "paths": {
+      "#root/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
