@@ -1,14 +1,16 @@
-# Panda Type
+# Panda Type 🐼
 
 Panda Type is an immersive typing-speed app built with React, TypeScript, and Vite. It pairs a focused typing test with an animated scene powered by React Three Fiber.
 
 The session is short and direct: type through 30 generated words, get live WPM, raw WPM, accuracy, elapsed time, and then review your final result.
 
+Deployed at https://panda-type.surge.sh/
+
 ## Features
 
 - Real-time typing engine with per-letter correctness state
 - Live WPM, raw WPM, accuracy, progress, and elapsed-time HUD
-- 3D deep-sea background scene that reacts to typing progress
+- 3D background scene that reacts to typing progress
 - Ripple feedback when words are completed
 - Final result screen with retry flow
 - Unit tests for the typing engine, UI, word list, and scene components
